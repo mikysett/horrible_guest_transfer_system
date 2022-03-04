@@ -1,0 +1,154 @@
+.colonna {
+	float: left;
+	min-width: 430px;
+	max-width: 750px;
+	width: 33%;
+	padding: 5px;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.form1_650 .field {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.opz_autofill {
+	padding: 5px 10px 0;
+	color: #444;
+	font-size: 13px;
+}
+
+.form1_650 .gg_mod {
+	display: inline;
+	width: 25px;
+	padding: 2px;
+}
+
+.scelta_stato {
+	float: right;
+}
+
+.ge_pre td {
+	padding: 1px 1px;
+}
+
+.form_ge_trans {
+	width: auto;
+}
+
+
+.cont_com {
+	
+}
+
+.form1_com {
+	width: 100%;
+	border: 0px;
+	box-shadow: none;
+}
+
+.testata_com .reparti {
+	font-style: italic;
+}
+
+.commento {
+	background: #efefef;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	margin: 5px;
+	padding: 3px;
+}
+
+.titolo_com {
+    font-size: 17px;
+    border-bottom: 1px solid #6F93FE;
+    color: #6F93FE;
+    padding: 3px 5px;
+    margin: 0 5px;
+}
+
+.testata_com {
+	font-size: 12px;
+}
+
+.clx_com, .ora_com, .com_ins .reparti {
+	color: #d2deff
+}
+
+.ora_com, .op_com {
+	font-family: monospace;
+	font-weight: bold;
+	color: #d2deff;
+}
+
+.blue_com {
+	color: #6F93FE;
+}
+
+input.testo_com {
+	float: left;
+	width: 90%;
+}
+
+.com_rapido {
+	color: #000;
+	border-radius: 3px;
+	font-size: 10px;
+	padding: 0;
+	margin: 0 0 0 2px
+}
+
+.com_rapidi_box {
+	min-height: 15px;
+	padding-top: 5px;
+}
+
+
+
+.box_barche_ge_trans {
+	max-width: 100%;
+	overflow-y: auto;
+}
+
+.box_barche_ge_trans_par {
+	max-width: 100%;
+	
+}
+
+.lista_barche {
+	width: 100%;
+}
+
+div.com_ins {
+	background: #7d7d7d;
+	font-size: 15px;
+	border: 0px;
+	color: #fff;
+	box-shadow: inset 1px 1px 5px 0px rgba(56, 56, 56, 0.6)
+}
+
+.pulsanti_bottom {
+	width: 100%;
+	background: #eee;
+	text-align: right;
+	border: 1px solid #6F93FE;
+	box-shadow: 3px 2px 12px 0px rgba(127, 127, 127, 0.2);
+	padding: 0;
+	border-radius: 4px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.bottone {
+	padding: 10px;
+	margin: 10px 5px 10px 0;
+}
+
+.data_creazione {
+	float: left;
+	text-align: left;
+	color: #444;
+	font-size: 14px;
+	padding: 5px;
+}

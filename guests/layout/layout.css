@@ -1,0 +1,27 @@
+body, img, p, h1, h2, h3, h4, h5, h6, div, a, input, form, fieldset, legend, table, tr, th {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	background-color: #f9f9f9;
+	text-align: center;
+	font-family: Trebuchet, Sans-Serif;
+	font-weight: normal;
+	line-height: 1.2;
+	color: #fff
+}
+
+div#head {
+	width: 400px;
+	height: 110px;
+	color: #222;
+	margin: 0 auto 20px auto
+}
+
+div#head h1 {
+	opacity : 0.80;
+	font-size: 96px;
+	font-weight: bold;
+	color: #245BFF;
+}

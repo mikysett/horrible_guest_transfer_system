@@ -1,0 +1,1075 @@
+body, img, p, h1, h2, h3, h4, h5, h6, div, a, input, form, fieldset, legend, table, tr, th {
+	margin: 0;
+	padding: 0
+}
+
+a {
+    text-decoration: none;
+}
+
+button, input {
+	font-size: 100%;
+	font-family: inherit;
+	border: 0;
+	padding: 0;
+	background: inherit;
+}
+
+button:focus, input:focus {
+	outline: none;
+}
+
+button:hover, #copy:hover {
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+body {
+	background-color: #F6F6F6;
+	font-size: 17px;
+	font-family: 'Roboto', Arial;
+	color: #000
+}
+
+#head_menu {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 30px;
+	box-sizing: border-box;
+	box-shadow: 3px 2px 27px 0px rgba(150, 150, 150, 0.1);
+	text-align: left;
+	background: #F6F6F6;
+	padding: 0 4px;
+	font-weight: bold;
+	border-bottom: 1px #ccc solid;
+	z-index: 110;
+}
+
+.menu_top {
+   float: left;
+   font-weight: normal;
+   color: #aaa;
+	padding: 4px 10px;
+	margin: 0 5px;
+	border-left: 1px #F6F6F6 solid;
+	border-right: 1px #F6F6F6 solid;
+}
+
+.menu_top a {
+   color: #aaa;
+}
+
+.titolo_menu {
+	float: left;
+}
+
+.menu_top:hover {
+	background: #efefef;
+	border-color: #ccc;
+}
+
+.voci_menu {
+	display: none;
+}
+.menu_top:hover .voci_menu {
+    display: block;
+    position: absolute;
+    z-index:1;
+    font-weight: normal;
+    min-width: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background-color: #efefef;
+    box-shadow: 2px 1px 4px 0px rgba(127, 127, 127, 0.2);
+    color: #222;
+    text-align: left;
+    padding: 15px;
+    margin: 23px 0 0 -15px;
+}
+
+#corpo_a {
+	margin-top: 70px;
+}
+
+.titolo_lista {
+	color: #6F93FE;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 4px;
+}
+
+.tipo_lista {
+	display: block;
+	font-size: 16px;
+	color: #aaa;
+	padding-bottom: 6px;
+}
+
+.tipo_lista:hover, .lista_sel {
+	color: #6F93FE;
+	text-decoration: underline;
+}
+
+#menu_nav {
+	position: fixed;
+	top: 30px;
+	height: 40px;
+	box-sizing: border-box;
+	width: 100%;
+	background: #efefef;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 3px 2px 27px 0px rgba(150, 150, 150, 0.3);
+	z-index: 100;
+}
+
+#add_note_img {
+	background-image: url("img/note_gg.png");
+	width: 24px;
+	height: 24px;
+	position: fixed;
+	margin: 8px;
+}
+
+#add_note_box {
+    display: none;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: 120;
+    width: 450px;
+    background-color: #fff;
+    border-radius: 0 10px 10px 10px;
+    box-shadow: 2px 1px 4px 0px rgba(127, 127, 127, 0.2);
+    color: #222;
+    padding: 0;
+    margin: 0;
+}
+
+#hide_note_gg_box {
+	position: fixed;
+	background-image: url("img/note_gg.png");
+	width: 24px;
+	height: 24px;
+	margin: 4px;
+}
+
+#add_nota {
+	margin: 10px 5% 10px 10%;
+	padding: 5px 8px;
+	box-sizing: border-box;
+	width: 85%;
+   border-radius: 3px;
+}
+
+#add_nota:hover, #add_nota:focus {
+	box-shadow: inset 1px 2px 8px 0px rgba(150, 150, 150, 0.3);
+}
+
+#reparti {
+	padding: 0 10px;
+	text-align: center;
+}
+
+.rep_note_gg {
+	padding: 5px;
+	color: #aaa;
+	margin: 0 6px;
+	border-radius: 2px;
+}
+.rep_note_gg:hover, .rep_sel {
+	background: #aaa;
+	color: #fff;
+	text-shadow: 1px 1px 2px #666;
+	box-shadow: inset 1px 1px 5px #666;
+}
+
+#op_note_gg {
+	text-align: right;
+	margin: 10px;
+}
+
+#box_nav {
+	padding: 8px;
+}
+
+#ricerca_data {
+	font-size: 20px;
+}
+
+#date_list {
+	text-align: center;
+	width: 130px;
+}
+
+#date_list:hover, .change_day:hover, .riga:hover {
+	background: #fff;
+	box-shadow: 1px 2px 5px 0px rgba(150, 150, 150, 0.6);
+	border-radius: 3px;
+}
+
+.change_day:active, .tipo_stato:active {
+	color: #fff;
+	background: #6F93FE;
+}
+
+.riga:hover, .riga_viaggi:hover {
+	background: #f7f9ff;
+}
+
+.piu_sep {
+	font-family: monospace;
+	font-weight: bold;
+	color: #aaa;
+	padding: 0 3px;
+}
+
+.change_day {
+	font-weight: bold;
+	color: #aaa;
+	padding: 0 7px;
+}
+
+#num_hide {
+	display: none;
+	background: #a00;
+	color: #fff;
+	padding: 0 5px;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+.opz_si {
+	color: #aaa;
+	display: block;
+}
+
+.opz_no {
+	display: block;
+	text-decoration: line-through;
+	color: #a00;
+}
+
+.opz_si:hover {
+	text-decoration: line-through;
+	color: #a00;
+}
+
+.opz_no:hover {
+	color: #aaa;
+	text-decoration: none;
+}
+
+#ricerca_data {
+	display: inline;
+	float: right;
+}
+
+#liste_box {
+	background: #fff;
+	box-sizing: border-box;
+	width: 60%;
+	float: right;
+	border-left: 2px solid #6F93FE;
+	box-shadow: 0 2px 20px 2px rgba(150, 150, 150, 0.4);
+}
+
+#note_gg_box {
+	background: #fff4a3;
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+.note_sep {
+	padding: 0 5px;
+}
+
+
+
+
+.title_list {
+	font-size: 40px;
+	color: #666;
+	border-left: 5px solid #6F93FE;
+	border-bottom: 1px solid #eee;
+	padding-left : 10px;
+}
+
+.lista_trans {
+	width: 100%;
+	font-size: 14px;
+}
+
+.lista_trans tr {
+    border-bottom: 1px solid #eee;
+}
+
+.lista_trans th {
+    padding: 5px;
+    border-bottom: 1px solid #aaa;
+}
+
+.lista_trans td {
+    padding: 4px;
+}
+
+.nome_trans {
+	color: #6F93FE;
+	cursor: pointer;
+}
+
+.field_cam {
+	background: #efefef;
+	border-radius: 2px;
+	border: 1px solid #dfdfdf;
+	padding: 0 3px;
+	max-width: 50px;
+}
+
+.field_cam:hover, .field_cam:focus {
+	border-color: #6F93FE;
+}
+
+.imp_td {
+    text-align: center;
+    font-weight: bold;
+}
+
+.tipo_trans_img {
+	width: 20px;
+	height: 20px;
+}
+
+.img_viaggi {
+	width: 14px;
+	height: 14px;
+	padding-right: 3px;
+	opacity: 0.5;
+}
+
+.img_email, .img_tel {
+	width: 20px;
+	height: 20px;
+}
+
+.comm_num {
+	float: right;
+	background: #bac5fe;
+	color: #fff;
+	font-weight: bold;
+	padding: 2px 5px;
+	border-radius: 2px;
+}
+
+td.tot_lista {
+	text-align: right;
+	color: #6F93FE;
+	padding-right: 10px;
+}
+
+/* altrimenti sfasato rispetto al margin di corpo_a */
+.qtip {
+	margin-top: -70px;
+}
+
+.qtip_body_comm {
+	font-size: 12px;
+}
+
+.qtip_info_comm {
+	font-size: 11px;
+}
+
+.qtip_body_comm .comm_time {
+	color: #6F93FE;
+	font-weight: bold;
+	float: left;
+	text-align: right;
+	margin-right: 5px;
+}
+
+.clx_nota {
+	color: #ee898c;
+	padding: 2px 4px;
+	border-radius: 2px;
+}
+
+.clx_nota:hover, .clx_nota:active {
+	background: #ee898c;
+	color: #fff;
+}
+
+.comm_rep {
+	background: #aaa;
+	color: #fff;
+	margin: 0 4px 0 0;
+	padding: 2px 4px;
+	text-shadow: 1px 1px 2px #666;
+	box-shadow: inset 1px 1px 5px #666;
+	border-radius: 2px;
+}
+
+#scelta_mezzo {
+	text-align: right;
+	padding: 15px 15px;
+}
+
+.mezzo_sel, #salva_nota_gg {
+	font-size: 22px;
+	padding: 10px 20px;
+	color: #6F93FE;
+	border-radius: 3px;
+}
+
+.mezzo_sel:hover, .mezzo_focus, #salva_nota_gg:hover, #salva_nota_gg:active {
+	color: #fff;
+	background: #6F93FE;
+}
+
+#mezzi_box {
+	z-index: 1;
+	position: fixed;
+   top: 0;
+   left: 0;
+	width: 40%;
+	box-sizing: border-box;
+	height: 100%;
+	padding-top: 70px;
+	overflow: auto;
+}
+
+div#mezzi_box.mezzi_large {
+	width: 100%;
+}
+
+#liste_mezzi_box {
+	background: #fff;
+	min-height: 300px;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px #ddd;
+	padding-bottom: 10px;
+}
+
+#stato_mezzi_box {
+	padding: 10px;
+	margin: 0 10px;
+	border-bottom: 1px solid #eee;
+}
+
+.mezzo_cont {
+	float: right;
+	width: 50%;
+	color: #6F93FE;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#mezzo1 {
+	float: left;
+}
+
+.ora_stato {
+	color: #000;
+	font-weight: normal;
+	padding: 0 5px;
+	margin-left: 5px;
+	background: #fff;
+	border: 1px solid #bbb;
+	border-radius: 3px;
+}
+
+.stati_mezzo {
+	display: none;
+    position: absolute;
+    z-index: 120;
+    min-width: 200px;
+    font-family: Arial;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background-color: #efefef;
+    box-shadow: 2px 1px 4px 0px rgba(127, 127, 127, 0.2);
+    color: #222;
+    padding: 15px;
+    margin: 0;
+}
+
+.tipo_stato {
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding: 6px 5px;
+	margin: 7px 0;
+	border-radius: 3px;
+	opacity: 0.7;
+}
+
+.tipo_stato:hover {
+	opacity: 1;
+	box-shadow: 1px 2px 2px 0px rgba(150, 150, 150, 0.1);
+}
+
+.inner {
+	position: relative;
+	height: auto;
+	min-height: 100%;
+}
+
+.clx_float {
+	clear: both;
+}
+
+#tab_viaggi {
+	width: 95%;
+	margin: 0 auto 20px;
+}
+
+.num_row {
+	color: #aaa;
+	font-family: monospace;
+	text-align: right;
+}
+
+#tab_viaggi tr {
+	border-bottom: 1px solid #eee;
+}
+
+#tab_viaggi td {
+	padding: 4px 6px;
+}
+
+.nome_comm_viaggi {
+	font-weight: bold;
+}
+
+.comm_viaggi {
+	font-size: 14px;
+}
+
+.comm_sep_viaggi {
+	color: #aaa;
+	font-size: 10px;
+	padding: 0 3px;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+/* Forumulario edit Transfer */
+
+#box_edit_trans {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 150;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+#form_edit_trans {
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 75%;
+	height: 95%;
+	box-sizing: border-box;
+	margin: 1% auto;
+	padding: 15px;
+	border-radius: 5px;
+   box-shadow: 1px 1px 10px #777;
+	background: #fff;
+	overflow-y: auto;
+}
+
+.titolo {
+   border-radius: 5px 5px 0 0;
+	font-size: 20px;
+   background: #6F93FE;
+   color: #fefefe;
+   padding: 10px;
+   margin: -10px -10px 0 -10px;
+}
+
+.data_modifica {
+	float: right;
+   padding-right: 5px;
+   color: #444;
+   font-size: 14px;
+}
+
+.frm_table {
+	clear: both;
+}
+
+.title_edit {
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: #444;
+}
+
+.frm_tipo_trans {
+	font-size: 20px;
+	float: right;
+}
+
+.scelta_stato {
+	float: right;
+}
+
+#frm_container_a_p {
+	clear: both;
+	padding-bottom: 70px;
+}
+
+.colonna {
+	box-sizing: border-box;
+	float: left;
+	width: 49%;
+	margin: 10px auto;
+	border-radius: 5px;
+	box-sizing: border-box;
+   box-shadow: 1px 1px 5px #ddd;
+   padding: 10px;
+}
+
+.frm_col_par {
+	float: right;
+}
+
+.testata_com {
+    font-size: 12px;
+}
+
+.titolo_com {
+    font-size: 17px;
+    color: #6F93FE;
+    padding: 3px 5px;
+}
+
+.com_rapido {
+    color: #000;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 0;
+    margin: 0 0 0 2px;
+}
+
+.reparti label {
+    padding-right: 10px;
+}
+
+.colonna input.testo_com {
+    float: left;
+    width: 90%;
+}
+
+.frmAddComm {
+	cursor: pointer;
+	padding: 2px 5px;
+	margin-right: 3px;
+	border-radius: 3px;
+}
+
+.frmAddComm:hover {
+	color: #fff;
+	background: #6F93FE
+}
+
+.commento {
+	display: none;
+    background: #efefef;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    padding: 3px;
+}
+
+.colonna input.op_com {
+	float: right;
+	width: 30px;
+}
+
+.colonna input.op_com,.colonna  input.testo_com {
+    background: #f7f7f7;
+}
+
+.frmComm {
+	background: #7d7d7d;
+	font-size: 15px;
+	border: 0px;
+	color: #fff;
+	border-radius: 3px;
+	padding: 3px 5px;
+	margin-bottom: 4px;
+	box-shadow: inset 1px 1px 5px 0px rgba(56, 56, 56, 0.6)
+}
+
+.ora_comm {
+	font-family: monospace;
+	font-weight: bold;
+	color: #d2deff;
+	padding-right: 3px;
+}
+
+.frmCommReparti {
+	font-style: italic;
+	color: #d2deff;
+}
+
+.clx_comm {
+	display: none;
+	float: right;
+	font-weight: bold;
+	padding: 0 4px;
+	color: #fff;
+}
+
+.frmComm:hover .clx_comm {
+	display: inline;
+}
+
+.colonna .field, .colonna textarea {
+	width: 100%;
+	background: #eee;
+	border: #ddd solid 1px;
+	border-radius: 2px;
+	box-shadow: inset 1px 1px 5px 0px rgba(222, 222, 222, 0.60);
+	padding: 5px;
+   box-sizing: border-box;
+	margin: 5px 0;
+}
+
+.colonna .data_trans {
+	width: 75%;
+	margin-left: 3px;
+}
+
+#pulsanti {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: #fff;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: right;
+	padding-top: 10px;
+}
+
+.bottone {
+	font-size: 18px;
+	cursor: pointer;
+   padding: 10px 15px;
+   margin-left: 10px;
+   color: #6F93FE;
+   border-radius: 3px;
+   border: 1px solid #6F93FE;
+   box-shadow: 1px 2px 2px 0px rgba(150, 150, 150, 0.3);
+}
+
+.bottone:hover {
+	color: #fff;
+   background: #6F93FE;
+}
+
+.clx_button {
+	color: #ff6161;
+   background: #fff;
+   border: 1px solid #ff6161;
+}
+
+.clx_button:hover {
+	background: #ff6161;
+   color: #fff;
+}
+
+
+#data_creazione {
+	float: left;
+	color: #aaa;
+	vertical-align: bottom;
+	margin-top: 20px;
+}
+
+/* Fine Forumulario edit Transfer */
+
+.center {
+	text-align: center;
+}
+
+.sfoca {
+	filter: blur(4px);
+	-webkit-filter: blur(4px);
+}
+
+.boh, .bohboh {
+	display: none;
+	font-weight: bold;
+	padding-right: 3px;
+}
+
+.bohboh {
+	text-decoration: underline;
+}
+
+.cn_0{color:#000}
+.cn_1{color:#f00}
+.cn_2{color:#FFEB3B}
+.cn_3{color:#00f}
+.cn_4{color:#FFA0FF}
+
+.bk_trans_0{background:#e8e8e8}
+.bk_trans_1{background:#ffc0c0}
+.bk_trans_2{background:#ffea9e}
+.bk_trans_3{background:#d5ffbf}
+.bk_trans_4{background:#f3c689}
+
+
+.bor_trans_0{border-color:#e8e8e8}
+.bor_trans_1{border-color:#ffc0c0}
+.bor_trans_2{border-color:#ffea9e}
+.bor_trans_3{border-color:#d5ffbf}
+.bor_trans_4{border-color:#f3c689}
+
+.c_trans_0{background:#f5f5f5}
+.c_trans_1{background:#ffe8e8}
+.c_trans_2{background:#fff4cc}
+.c_trans_3{background:#fff}
+.c_trans_4{background:#f3c689}
+
+.m_all {
+	color: #666;
+	font-weight: normal;
+	padding: 3px 5px;
+	border-radius: 3px;
+	margin-left: 5px;
+	opacity: 0.7;
+	box-shadow: 1px 2px 2px 0px rgba(150, 150, 150, 0.3);
+}
+.m_0 {background: #ccc}
+.m_1 {background: #bbd5ff}
+.m_2 {background: #bbd5ff}
+.m_3 {background: #bbd5ff}
+.m_4 {background: #bbd5ff}
+.m_5 {background: #e3ffd9}
+.m_6 {background: #e3ffd9}
+.m_7 {background: #e3ffd9}
+.m_8 {background: #e3ffd9}
+.m_9 {background: #ff6161; color: #fff}
+
+.info_generiche {
+	width: 20px;
+	float: left;
+	background: #333;
+	color: #fff;
+	text-align: center;
+	margin: 4px 15px;
+	border-radius: 10px;
+}
+
+.tutte_info {
+	display: none;
+}
+
+.info_generiche:hover .tutte_info {
+    display: block;
+    position: absolute;
+    font-weight: normal;
+    height: auto;
+    max-height: 700px;
+    overflow-y: auto;
+    top: 1.1em;
+    left: 1.1em;
+    width: 50em;
+    border: 1px solid #999;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 2px 1px 4px 0px rgba(127, 127, 127, 0.3);
+    border-radius: 4px;
+    color: #222;
+    text-align: left;
+    padding: 5px;
+}
+
+@media screen and (max-width: 1399px) {
+	body {
+		font-size: 14px;
+	}
+	
+	.bottone {
+		font-size: 15px;
+		padding: 5px 10px;
+	}
+	
+	#form_edit_trans {
+		width: 98%;
+		height: 98%;	
+	}
+	
+	#mezzi_box {
+		width: 100%;
+		position: initial;
+		margin: 0 auto 10px;	
+		padding: 0;
+	}
+	
+	#liste_box {
+		width: 100%;
+		float: none;
+		margin: 70px auto 0;
+		border: 0 solid #000;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	body {
+		font-size: 14px;
+	}
+	.lista_trans, #tab_viaggi {
+		font-size: 12px;	
+	}
+	
+	#data_creazione {
+		display: block;
+		width: 100%
+	}
+	
+	.colonna {
+		display: block;
+		width: 100%;
+	}
+}
+
+@media print {
+	body {
+		background: #fff;
+		font-family: Calibri, "Times New Roman", Times, serif;
+	}
+	.c_trans_0, .c_trans_1, .c_trans_2, .c_trans_3, .c_trans_4{background:none}
+	
+	.riga:hover, .riga_viaggi:hover {
+		background: none;
+	}
+	
+	.boh, .bohboh, button.mezzo_focus {
+		display: inline;
+	}
+	
+	#mezzi_box, #head_menu, #add_note_img, #stato_mezzi_box, .mezzo_sel {
+		display: none;
+	}
+	
+	div#mezzi_box.mezzi_large {
+		display: block;
+		position: static;
+		padding-top: 0;
+	}
+	
+	#liste_mezzi_box {
+		box-shadow: none;
+		margin: 0;
+	}
+	
+	.mezzo_focus {
+		background: none;
+		color: black;
+		font-size: 35px;
+		font-weight: bold;
+	}
+	
+	#tab_viaggi {
+		width: 100%;
+		font-size: 22px;
+	}
+	
+	#tab_viaggi tr {
+		border-bottom: 1px solid #000;
+	}
+	
+	
+	#box_nav {
+		padding: 0;
+	}
+	
+	#ricerca_data {
+		float: none;
+	}
+	
+	#menu_nav {
+		position: static;
+		background: #fff;
+		border-bottom: 1px solid #000;
+		box-shadow: none;
+		text-align: right;
+		height: auto;
+	}
+	
+	#ricerca_data button {
+		display: none;
+	}
+	
+	#liste_box {
+		width: 100%;
+		border: none;
+		box-shadow: none;
+		margin-top: 0;
+	}
+	
+	.trans_box {	
+		page-break-inside: avoid;
+	}
+	
+	#note_gg_box {
+		background: none;
+		font-size: 14px;
+		margin-bottom: 5px;
+		border-bottom: none;
+	}
+	
+	.comm_num {
+		background: none;
+		border: 1px solid #000;
+		color: #000;
+		display: none;
+	}
+	
+	.lista_trans {
+		font-size: 12px;
+	}
+	
+	.lista_trans tr {
+		border-bottom: 1px solid #444;
+	}
+	
+	.lista_trans td {
+		padding: 2px 4px;
+	}
+	
+	.lista_trans th {
+		padding: 2px 4px;
+		border-top: 2px solid #444;
+		border-bottom: 1px solid #444;
+	}
+	
+	.tipo_trans_img {
+		width: 10px;
+		height: 10px
+	}
+	
+	.img_email, .img_tel {
+		width: 10px;
+		height: 10px
+	}
+	
+	.title_list {
+		display: none;
+	}
+	
+	.nome_trans, td.tot_lista {
+		color: #000;
+	}
+}

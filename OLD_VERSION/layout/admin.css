@@ -1,0 +1,1546 @@
+body, img, p, h1, h2, h3, h4, h5, h6, div, a, input, form, fieldset, legend, table, tr, th {
+	margin: 0;
+	padding: 0
+}
+
+table {
+	border-collapse: collapse;
+}
+
+body {
+	background-color: #F6F6F6;
+	text-align: center;
+	font-size: 17px;
+	font-family: Arial;
+	font-weight: normal;
+	line-height: 1.2;
+	color: #000
+}
+
+#nb {
+	width: 90%;
+	margin: 10px auto;
+	text-align: justify;
+}
+
+/* LISTA MODIFICHE */
+#lista_modifiche {
+	width: 100%
+
+}
+
+#lista_modifiche th {
+	text-align: left;
+	padding: 5px 10px;
+}
+
+#lista_modifiche td {
+	text-align: left;
+	padding: 5px 10px;
+}
+
+/* MENU BOOKING */
+.menu_sopra {
+	width: 900px;
+	margin: 5px auto;
+	text-align: right;
+}
+
+.menu_booking {
+	width: 900px;
+	margin: 20px auto;
+	text-align: left;
+}
+
+.menu_booking th {
+	font-size: 20px;
+	color: #6F93FE;
+	padding: 5px;
+}
+
+.data_refresh {
+	color: #aaa;
+	float: right;
+	margin-right: 20px;
+	padding: 4px 0;
+}
+
+.data_refresh a {
+	color: #aaa;
+}
+
+.titolo {
+	font-size: 20px;
+	background: #6F93FE;
+	color: #fefefe;
+	padding: 10px;
+}
+
+.sottotitolo {
+	padding: 10px 30px 10px 15px;
+	margin: 15px 0 5px;
+	color: #fefefe;
+	background: #6F93FE;
+	float: right;
+}
+
+.menu_booking input, .menu_booking a {
+	display: block;
+	margin-bottom: 10px;
+	width: 90%;
+	padding: 5px;
+}
+
+.operazioni_straordinarie {
+	width: 800px;
+	text-align: left;
+	margin: 10px auto;
+}
+/* GESTIONE PRENOTAZIONI */
+.form1_650, .form1_all {
+	width: 530px;
+	background: #fefefe;
+	border: 1px solid #6F93FE;
+	box-shadow: 3px 2px 12px 0px rgba(127, 127, 127, 0.2);
+	border-radius: 4px;
+	text-align: left;
+	margin: 10px auto;
+}
+
+.menu_nav {
+	position: fixed;
+	top: 28px;
+	box-sizing: border-box;
+	width: 100%;
+	background: #efefef;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+	box-shadow: 3px 2px 27px 0px rgba(150, 150, 150, 0.2);
+}
+
+.box_nav {
+	float: right;
+	margin-top: 10px
+}
+
+.ricerca_data, .ricerca_nome {
+	display: inline;
+}
+
+.add_com_gg {
+	float: left;
+}
+
+.box_note_gg {
+	clear: both;
+	margin: 0 10px 0 220px;
+}
+
+.noclear {
+	clear: none;
+	margin: 10px 10px 0 10px;
+}
+
+.box_note_gg .reparti {
+	color: #6F93FE;
+	font-style: italic;
+}
+
+.nota_gg {
+	background: #fff;
+	float: right;
+	border-radius: 3px;
+	border: 1px solid #6F93FE;
+	margin: 0 0 5px 10px;
+	padding: 5px;
+}
+
+.small {
+	display: block;
+	border-radius: 1px;
+	font-size: 13px;
+	padding: 2px;
+}
+
+.clx_nota_gg {
+	color: #ff0000;
+	padding-left: 5px;
+}
+
+.ricerca_data input {
+	float:left;
+	width: auto;
+	margin: 0 5px;
+	padding: 7px 10px;
+}
+.ricerca_nome input {
+	float: right;
+	width: auto;
+	margin: 0 5px;
+	padding: 7px 10px;
+}
+input.bott_add_nota {
+	float: left;
+	margin: 0;
+	padding: 7px 10px;
+}
+
+.add_com_gg .reparti {
+	text-align: left;
+	font-size: 12px;
+	clear: left;
+	padding: 4px 0 0 10px;
+}
+
+.day_week {
+	float: left;
+	font-family: Monospace;
+	padding: 5px 0;
+}
+
+.day_week_ge_trans {
+	float: left;
+	font-family: Monospace;
+	padding: 5px 8px 0 0;
+}
+
+input.add_nota {
+	clear: both;
+	float: left;
+	width: 350px;
+	font-size: 18px;
+	background: #f7f7f7;
+	margin: 0 5px;
+	padding: 5px 10px;
+}
+
+.box_tipo_lista {
+	position: fixed;
+	top: 130px;
+	left: 10px;
+	width: 180px;
+	background: #efefef;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: left;
+}
+
+.titolo_lista {
+	color: #6F93FE;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 4px;
+}
+
+.tipo_lista {
+	display: block;
+	font-size: 16px;
+	color: #aaa;
+	padding-bottom: 6px;
+}
+
+.tipo_lista:hover, .menu_top a.lista_sel {
+	color: #6F93FE;
+	text-decoration: underline;
+}
+
+.ricerca_data input.field {
+	font-size: 18px;
+	width: 100px;
+	background: #f7f7f7
+}
+
+input.data_trans {
+	width: 70%;
+}
+
+input.field_cam {
+	width: 20px;
+}
+
+.ricerca_nome input.field {
+	font-size: 18px;
+	width: 150px;
+	background: #f7f7f7
+}
+
+
+
+
+.field_stat {
+	font-size: 18px;
+	width: 140px;
+	background: #f7f7f7;
+	border: #ddd solid 1px;
+	border-radius: 2px;
+	padding: 3px;
+	box-shadow: inset 1px 1px 5px 0px rgba(222, 222, 222, 0.60);
+}
+
+input.op_com, input.testo_com {
+	background: #f7f7f7;
+}
+
+input.op_com {
+	float: right;
+	width: 30px;
+}
+
+.ora_com, .op_com {
+	font-family: monospace;
+	font-weight: bold;
+	color: #6F93FE;
+}
+
+.clx_com {
+	color: #ea0606;
+}
+
+.box_clx {
+	float: right;
+}
+
+
+.form1_all {
+	
+}
+
+.form1_all td  {
+	padding: 2px 6px;
+}
+
+.form1_all th  {
+	font-size: 12px;
+	color: #555;
+	text-align: center;
+	padding: 2px 4px;
+}
+
+.form1_650 .form_txt, .form1_all .form_txt {
+	padding: 15px;
+}
+
+.form1_650 .form_txt span, .form1_all .form_txt span {
+	color: #999;
+}
+
+
+
+.testa_red {
+	background: #FE4F4F;
+	padding: 15px 20px 15px 15px;
+	color: #fefefe;
+}
+
+.form_green {
+	border: 1px solid #65DE65;
+	clear: right
+}
+
+.form_red {
+	border: 1px solid #FE4F4F;
+}
+
+.form_red .titolo {
+	background: #FE4F4F;
+}
+
+.form_green .titolo {
+	background: #65DE65;
+}
+
+.clr_green {
+	color: #65DE65;
+}
+
+.clr_red, td.clr_red {
+	color: #FE4F4F;
+}
+
+.form1_650 table {
+	width: 94%;
+	margin: 10px auto;
+}
+
+.form1_650 .testa_problema {
+	display: none;
+}
+
+.form1_650 .num_problemi {
+	padding: 15px;
+	margin: 15px;
+	color: #fefefe;
+	background: #FE4F4F;
+	float:left;
+}
+
+
+.form1_650 .prob {
+	padding: 0 15px 15px;
+	clear: left;
+}
+
+.form1_650 .prob::before {
+	content: "* ";
+	font-size: 30px;
+	color: #FE4F4F;
+	float:left;
+	padding: 0 10px 0 0;
+	margin-top: -3px;
+}
+
+.form1_all .pulsanti_bottom {
+	padding: 0;
+}
+
+.data_modifica {
+	float: right;
+	padding-right: 5px;
+	color: #444;
+	font-size: 14px;
+}
+
+.radio_color {
+	float:right;
+	margin: 5px 15px 0 10px;
+}
+
+.label_color {
+	width:10px;
+	height: 10px;
+	float:right;
+	border: #aaa solid 1px;
+}
+
+.data_tab1 {
+	min-width: 200px;
+}
+
+.date_ge_gru {
+	width: 80px;
+}
+
+.small_tab1 {
+	width: 40px;
+}
+
+.big_tab1 {
+	width: 220px;
+} 
+
+.medium_tab1 {
+	width: 190px;
+} 
+
+.medium_tab2 {
+	width: 130px;
+} 
+
+.radio_color2 {
+	float:right;
+	margin: 0 5px 0 3px;
+}
+
+.label_color2 {
+	width:10px;
+	height: 10px;
+	float:right;
+	border: #aaa solid 2px;
+}
+
+.form1_650 .field {
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.sx_info_pre {
+	width: 220px;
+	color: #555;
+	margin: 10px auto;
+	text-align: left;
+}
+
+.sx_num_notti {
+	float: right;
+}
+
+.sx_gruppo {
+	display: block;
+	padding: 2px 5px;
+}
+
+.num_spe {
+	background: #fff;
+	color: #6F93FE;
+	border-radius: 40px;
+	margin-right: 5px;
+	padding: 0 5px;
+}
+
+.show_spe {
+	display: none;
+}
+
+.form1_650:hover .show_spe {
+	display: block;
+}
+
+.nome_share {
+	width: 110px;
+}
+
+label.clx_spe {
+	display: inline;
+	margin-right: 3px;
+}
+
+.form1_650 .bottone {
+	padding: 10px;
+	margin: 0;
+	
+}
+
+.bottone {
+	padding: 10px;
+	margin: 10px;
+}
+
+.form1_650 .guarda_b, .guarda_b {
+	float: right;
+	padding: 5px 10px;
+	margin: 0;
+}
+
+
+.form1_650 .bottone_small {
+	padding: 2px;
+	margin: 2px;
+}
+
+.bottone_small {
+	padding: 2px;
+	margin: 2px;
+}
+
+/* TARIFFE */
+
+.lista_tariffe {
+	color: #444;
+	width: 500px;
+	border-collapse: collapse;
+	text-align: left;
+	margin: 0 auto;
+	float: none;
+	clear: both;
+}
+
+.lista_tariffe td {
+	padding: 5px;
+}
+
+td.nome_tariffa {
+	font-weight: bold;
+
+}
+
+/* FINE TARIFFE */
+
+
+/* AGGIUNGI CAMERE */
+.aggiungi_camere {
+	width: 400px;
+	height: 150px;
+	clear: both;
+	margin: 10px auto;
+}
+
+.aggiungi_camere textarea {
+	width: 94%;
+	margin: 0 5px;
+}
+
+.field, .form1_650 textarea {
+	width: 100%;
+	background: #eee;
+	border: #ddd solid 1px;
+	border-radius: 2px;
+	padding: 3px;
+	box-shadow: inset 1px 1px 5px 0px rgba(222, 222, 222, 0.60);
+}
+
+.field_protected, input.field_protected:hover, input.field_protected:focus {
+	background: #bbb;
+}
+
+.tipo_pre_gru {
+	font-size: 10px;
+	color: #6F93FE;
+}
+
+.form1_650 textarea {
+	display: block;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.aggiungi_camere td {
+	padding: 2px;
+}
+
+.bottone {
+	background: #fefefe;
+	color: #6F93FE;
+	border-radius: 2px;
+	font-size: 14px;
+	font-family: Courier, Verdana, Sans-Serif;
+	border: #6F93FE solid 1px;
+	box-shadow: 2px 1px 4px 0px rgba(200, 200, 200, 0.5);
+}
+
+.bottone_t1 {
+	float: left;
+	margin: 0 2px;
+	font-size: 12px;
+	padding:2px 4px 0;
+}
+
+.bottone_r {
+	border: #FE4F4F solid 1px;
+	color: #FE4F4F;
+}
+
+.aggiungi_camere .bottone {
+	width: 94%;
+	height: 50px;
+	padding: 0 16px;
+}
+
+.bottone:hover, .bottone:focus {
+	background: #6F93FE;
+	color: #fefefe;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.bottone_r:hover, .bottone_r:focus {
+	background: #FE4F4F;
+}
+
+.bottone:active {
+	font-weight: bold;
+}
+
+.lista_camere {
+	color: #444;
+	width: 500px;
+	border-collapse: collapse;
+	text-align: left;
+	margin: 0 auto;
+	float: none;
+	clear: both;
+}
+
+.testata_booking {
+	position: fixed;
+	width: 100%;	
+	box-sizing: border-box;
+	box-shadow: 3px 2px 27px 0px rgba(150, 150, 150, 0.1);
+	text-align: left;
+	font-family: Courier;
+	background: #F6F6F6;
+	padding: 0 4px;
+	font-weight: bold;
+	border-bottom: 1px #ccc solid;
+	z-index: 100;
+}
+
+.menu_top {
+   float: left;
+   font-family: Arial;
+   font-weight: normal;
+   color: #aaa;
+	padding: 4px 10px;
+	margin: 0 5px;
+	border-left: 1px #F6F6F6 solid;
+	border-right: 1px #F6F6F6 solid;
+}
+
+.menu_top a {
+   color: #aaa;
+}
+
+.titolo_menu {
+	float: left;
+}
+
+.menu_top:hover {
+	background: #efefef;
+	border-color: #ccc;
+}
+
+.voci_menu {
+	display: none;
+}
+.menu_top:hover .voci_menu {
+    display: block;
+    position: absolute;
+    z-index:1;
+    font-weight: normal;
+    min-width: 150px;
+    font-family: Arial;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background-color: #efefef;
+    box-shadow: 2px 1px 4px 0px rgba(127, 127, 127, 0.2);
+    color: #222;
+    text-align: left;
+    padding: 15px;
+    margin: 23px 0 0 -15px;
+}
+
+.lista_camere thead tr {
+	text-align: right;
+}
+
+.lista_camere th {
+	text-align: center;
+	padding: 5px;
+}
+
+.lista_camere tbody tr:hover, .lista_tariffe tbody tr:hover, .lista_gruppo tbody tr:hover {
+	background: #e9e9e9;
+}
+
+.form1_all tr:hover {
+	background: #f5f5f5;
+}
+
+.lista_camere td {
+	font-weight: normal;
+	padding-top: 8px;
+}
+
+.lista_camere .numero {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.lista_camere .note {
+	padding: 0 15px;
+	margin: 0;
+	font-size: 12px;
+}
+
+.lista_camere .modifica, .lista_camere .elimina {
+	font-size: 14px;
+	color: #888;
+	padding: 2px 10px 0 5px;
+}
+
+.lista_camere .modifica {
+	border-left: 3px solid #888;
+}
+
+.lista_camere .elimina a {
+	color: #ff403f;
+}
+
+/* INIZIO MENU */
+
+#menu_a table {
+	border-collapse: collapse;
+}
+
+#menu_a td {
+	font-weight: normal;
+	padding: 7px
+}
+
+#menu_a hr {
+	background: #e34949;
+	color: #e34949;
+	border-style: solid;
+	height: 1px;
+}
+
+.bottone_annulla {
+	background: #ff403f;
+	color: #f9f9f9;
+	font-size: 11px;
+	font-family: Courier, Verdana, Sans-Serif;
+	border: 1px solid #ccc;
+	padding: 4px;
+}
+
+/* FINE MENU */
+
+.tab_disp div, tr.border_bottom td, .per_comparsa {
+position:relative;
+z-index:1;
+}
+ 
+.border_bottom td:hover, .per_comparsa:hover {
+z-index:2;
+}
+ 
+.border_bottom td .info, .a_comparsa {
+display: none
+}
+ 
+.border_bottom td:hover .info, td:hover .a_comparsa {
+display:block;
+position:absolute;
+top:2em; left:0em; width:18em;
+border:1px solid #999;
+background-color:rgba(255,255,255,0.9);
+box-shadow: 2px 1px 4px 0px rgba(127, 127, 127, 0.3);
+border-radius: 4px;
+color:#222;
+text-align: left;
+padding:5px;
+}
+
+td:hover .a_comparsa {
+width: 12.5em;
+}
+
+.table_cam div:hover span, tr:hover .info {
+top:0em; left:4em; width:18em;
+}
+
+/* INIZIO CORPO */
+
+#corpo_a {
+	padding: 30px 0;
+}
+
+#corpo_booking {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* FINE CORPO */
+
+textarea.nota_corta {
+	height: 20px;
+	padding: 1px;
+	margin-bottom: 3px;
+}
+
+.field:hover, .field_stat:hover, textarea:hover {
+	background: #f4f4f4;
+}
+
+.field:focus, .field_stat:focus, textarea:focus {
+	background: #f4f4f4;
+	outline: none;
+}
+
+p.bottoni {
+	clear: both;
+	text-align: right;
+	margin: 20px 50px 0 0
+}
+
+#titolo_tabella {
+	width: 70%;
+   box-sizing: border-box;
+   float: right;
+	font-size: 50px;
+	font-weight: normal;
+	color: #e34949;
+	text-align: left;
+	padding: 20px 10px 20px 50px;
+}
+
+input:hover {
+	background: #eee;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+a { text-decoration: none; color: #000; }
+a:hover { text-decoration: underline; }
+
+/* MESSAGGI DI ERRORE, AVVERTIMENTO E CONFERMA */
+
+.informazioni_operazioni {
+	width: 550px;
+	text-align: left;
+	padding: 10px;
+	border-radius: 5px;
+	background: #e4e4e4;
+	margin: 5px auto;
+
+}
+
+.colonna_sx {
+	position: fixed;
+	top: 28px;
+	float: left;
+	width: 250px;
+	height: 85%;
+	overflow: auto;
+   border-right: 2px solid #ddd;
+   border-bottom: 2px solid #ddd;
+	background: #fefefe;
+	padding-bottom: 15px;
+	border-radius: 0 0 5px 0;
+}
+
+.pulsanti_sx {
+    background: #eee;
+    text-align: center;
+    padding: 0;
+}
+
+.cont_dx {
+	
+}
+
+.colonna_sx .tutti_problemi {
+	background: #fefefe;
+	border: 1px solid #FE4F4F;
+   box-shadow: 3px 2px 12px 0px rgba(127, 127, 127, 0.2);
+   border-radius: 4px;
+	width: 230px;
+	max-height: 240px;
+	overflow: auto;
+	margin: 10px auto
+}
+
+.colonna_sx .num_problemi {
+    padding: 15px;
+    color: #fefefe;
+    background: #FE4F4F;
+    text-align: left;
+}
+
+.colonna_sx .testa_problema {
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.colonna_sx .progressivo {
+	font-family: Courier;
+	float:left;
+   color: #888;
+}
+
+.colonna_sx .pb_gruppo, .colonna_sx .pb_agenzia, .colonna_sx .pb_separator {
+    display: none;
+}
+
+.colonna_sx .prob::before {
+    content: "* ";
+    font-size: 15px;
+    color: #FE4F4F;
+    float: left;
+    padding: 0 5px 0 0;
+    margin-top: -1px;
+}
+
+.colonna_sx .prob {
+	padding: 0 10px 10px;
+   font-size: 12px;
+   color: #444;
+   text-align: left;
+}
+
+.colonna_sx .lista_sx {
+	margin: 10px auto;
+	text-align: left;
+	color: #555;
+}
+
+.colonna_sx .lista_sx th {
+	padding: 3px;
+}
+
+.colonna_sx .lista_sx td {
+	padding: 0 3px;
+	font-family: Courier;
+	text-align: right;
+}
+
+.colonna_sx .lista_sx .riga:hover {
+	background: #f7f7f7;
+}
+
+.colonna_sx .lista_sx .tipo {
+	text-align: left;
+}
+
+.colonna_sx .lista_sx tr.totali {
+	border-top: 1px solid #ddd;
+}
+
+.colonna_sx .lista_sx tr.testa {
+	border-bottom: 1px solid #ddd;
+}
+
+.monospace_style, .monospace_style_dx {
+	font-family: Courier;
+	color: #555;
+}
+.monospace_style_dx {
+	text-align: right;
+}
+
+.lista_prenotazioni {
+	width: 100%;
+}
+
+.lista_prenotazioni tr {
+	padding: 2px 4px;
+}
+
+.hover_show {
+	display: none;
+}
+
+tr:hover .hover_show {
+	display: inline;
+}
+
+tr:hover .hover_hide {
+	display: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.center_block {
+	margin: 0 auto;
+}
+
+.lista_colori_gruppo {
+	width: 217px;
+	max-height: 100px;
+	overflow: scroll;
+}
+.titolo_colore_gruppo {
+	width: 217px;
+	text-align: left;
+	font-weight: bold;
+	color: #555;
+	margin: 10px auto 4px auto;
+}
+
+.ricerca_gruppi {
+	margin: 15px;
+	text-align: left;
+}
+
+.form_inline {
+	display: inline;
+}
+
+.nome_gruppo_ricercato {
+	width: 220px;
+	box-sizing: border-box;
+	margin: 5px 0;
+	padding: 10px;
+}
+
+.border_bottom {
+	border-bottom: 1px solid #eee;
+}
+
+.border_bottom_big {
+	border-bottom: 3px solid #ccc;
+}
+
+.border_tariffa {
+	border-top: 3px solid #ccc;
+	border-bottom: 1px solid #eee;
+}
+
+.border_bottom_medium {
+	border-bottom: 1px solid #ddd;
+}
+
+.a_padding {
+	padding: 20px 0;
+}
+
+.lista_trans td {
+	text-align: left;
+	padding: 0 4px;
+	max-width: 200px
+}
+
+.lista_trans td.nominativi_barche {
+	max-width: none;
+}
+
+.lista_trans tr {
+	padding: 4px;
+   border-bottom: 1px solid #aaa;
+}
+
+td.num_cam_td {
+	text-align: center;
+	font-weight: bold;
+}
+
+.lista_trans th {
+	padding: 5px;
+	background: #6F93FE;
+	color: #fff;
+   box-shadow: 3px 2px 12px 0px rgba(127, 127, 127, 0.5);
+}
+
+.lista_trans {
+    box-shadow: 3px 2px 12px 0px rgba(127, 127, 127, 0.2);
+    border: 1px solid #6F93FE;
+    font-size: 14px;
+}
+
+.stat_tab td {
+	font-size: 18px;
+	padding: 5px;
+
+}
+
+.td_com {
+	background: #efefef;
+}
+
+.td_com:hover {
+	background: #fff;
+}
+
+.td_com .reparti {
+	font-style: italic;
+	color: #6F93FE;
+}
+
+.nome_x_barche {
+	font-style: italic;
+	color: #6F93FE;
+}
+
+.lista_trans tr:hover {
+	background: #fff;
+}
+
+.arrivi_box {
+	margin-bottom: 20px;
+}
+
+.dip_box {
+	max-width: 800px;
+	margin: 20px auto;
+
+}
+
+.liste_box {
+	margin: 90px 0 0 220px;
+}
+
+.title_list {
+	clear: right;
+	font-size: 35px;
+	text-align: left;
+	color: #6F93FE;
+
+}
+
+.no_arrivi {
+	text-align: left;
+	font-size: 20px;
+}
+
+.ultima_mod_lista {
+	font-size: 16px;
+	color: #000;
+}
+
+.lista_trans td.small_col {
+	max-width: 50px;
+	overflow: hidden;
+}
+
+
+.lista_trans td.small_col:hover {
+	max-width: fit-content;
+}
+
+
+.c_0{background:#FFB477}
+.c_1{background:#8FFF57}
+.c_2{background:#ED4AFF}
+.c_3{background:#FFFF82}
+.c_4{background:#98C0EC}
+.c_5{background:#D2CC99}
+.c_6{background:#D4FF8F}
+.c_7{background:#84F2D4}
+.c_8{background:#8FFFC6}
+.c_9{background:#FFEE6B}
+.c_10{background:#BA81FF}
+.c_11{background:#FF75FF}
+
+.list_note {
+	font-size: 20px;
+	float: left;
+	padding-right: 5px;
+}
+
+.tipo_trans_img {
+	width: 20px;
+	height: auto;
+	float: left;
+	padding: 2px;
+}
+
+.tipo_trans_img_bar {
+	width: 20px;
+	height: auto;
+	padding-top: 5px;
+}
+
+.sinbol_piu {
+	color: #fff;
+	background: #6F93FE;
+	padding: 0 5px;
+	border-radius: 15px;
+	font-weight: bold;
+
+}
+
+.sinbol_boh {
+	color: #fff;
+	background: #f3d03f;
+	padding: 0 5px;
+	border-radius: 15px;
+	font-weight: bold;
+
+}
+
+.sinbol_boh_boh {
+	color: #fff;
+	background: #ef6666;
+	padding: 0 5px;
+	border-radius: 15px;
+	font-weight: bold;
+
+}
+
+
+.cn_0{color:#000}
+.cn_1{color:#f00}
+.cn_2{color:#FFEB3B}
+.cn_3{color:#00f}
+.cn_4{color:#FFA0FF}
+
+.bk_trans_0{background:#e8e8e8}
+.bk_trans_1{background:#ffc0c0}
+.bk_trans_2{background:#ffea9e}
+.bk_trans_3{background:#d5ffbf}
+.bk_trans_4{background:#f3c689}
+
+
+.bor_trans_0{border-color:#e8e8e8}
+.bor_trans_1{border-color:#ffc0c0}
+.bor_trans_2{border-color:#ffea9e}
+.bor_trans_3{border-color:#d5ffbf}
+.bor_trans_4{border-color:#f3c689}
+
+.c_trans_0{background:#e8e8e8}
+.c_trans_1{background:#ffc0c0}
+.c_trans_2{background:#ffea9e}
+.c_trans_3{background:#d5ffbf}
+.c_trans_4{background:#f3c689}
+
+.info_generiche {
+	width: 20px;
+	float: left;
+	background: #333;
+	color: #fff;
+	text-align: center;
+	margin: 4px 15px;
+	border-radius: 10px;
+}
+
+.tutte_info {
+	display: none;
+}
+
+.info_generiche:hover .tutte_info {
+    display: block;
+    position: absolute;
+    font-weight: normal;
+    font-family: Arial;
+    height: auto;
+    max-height: 700px;
+    overflow-y: auto;
+    top: 1.1em;
+    left: 1.1em;
+    width: 50em;
+    border: 1px solid #999;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 2px 1px 4px 0px rgba(127, 127, 127, 0.3);
+    border-radius: 4px;
+    color: #222;
+    text-align: left;
+    padding: 5px;
+}
+
+.mezzo_box {
+    float: left;
+    color: #aaa;
+    clear: both;
+    width: 100%;
+}
+
+.stati_mezzo {
+	display: none;
+}
+
+.tipo_stato {
+	float: left;
+	font-size: 16px;
+	color: #555;
+	border: 1px solid #bbb;
+	border-radius: 3px;
+	padding: 5px;
+	margin: 3px 0;
+	clear: left;
+}
+
+.mezzo_box:hover .stati_mezzo {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    min-width: 200px;
+    font-family: Arial;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background-color: #efefef;
+    box-shadow: 2px 1px 4px 0px rgba(127, 127, 127, 0.2);
+    color: #222;
+    padding: 15px;
+    margin: -150px 0 0 100px;
+}
+
+.mezzo_box:hover .titolo_mezzo {
+    color: #6F93FE;
+}
+
+.stato_attuale {
+	background: #ccc;
+	border: 1px solid #bbb;
+	border-radius: 3px;
+	font-size: 14px;
+	padding: 5px;
+	color: #555;
+	margin-bottom: 10px
+}
+
+.ora_stato {
+	float: right;
+	padding: 0 5px;
+	margin-left: 5px;
+	background: #fff;
+	border: 1px solid #bbb;
+	border-radius: 3px;
+}
+
+.stato_0 {background: #ccc}
+.stato_1 {background: #bbd5ff}
+.stato_2 {background: #d9fffe}
+.stato_3 {background: #ffd9ed}
+.stato_4 {background: #e3ffd9}
+.stato_5 {background: #bbd5ff}
+.stato_6 {background: #d9fffe}
+.stato_7 {background: #ffd9ed}
+.stato_8 {background: #e3ffd9}
+.stato_9 {background: #ff6161; color: #fff}
+
+.opz_si {
+	color: #aaa;
+	display: block;
+}
+
+a.opz_no {
+	display: block;
+	text-decoration: line-through;
+	color: #a00;
+}
+
+.num_hide {
+	background: #a00;
+	color: #fff;
+	padding: 0 5px;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+.opz_si:hover {
+	text-decoration: line-through;
+	color: #a00;
+}
+
+.opz_no:hover {
+	color: #aaa;
+	text-decoration: none;
+}
+
+@media screen {
+.display_hide, .sinbol_boh_boh, .sinbol_boh, .data_viaggi {
+	display: none;
+}
+
+.danger {
+	color: #4a74f3;
+	text-decoration: underline;
+}
+}
+
+
+@media print {
+body {
+	background: #fff;
+	font-family: Calibri, "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+#corpo_a {
+	padding: 0
+}
+
+.sinbol_boh_boh, .sinbol_boh {
+	color: #000;
+	background: #fff;
+	padding: 0 5px 0 0;
+	font-weight: bold;
+}
+
+.lista_trans {
+	border: 2px solid #000;
+	box-shadow: none;
+	font-size: 12px;
+}
+
+.data_viaggi {
+
+}
+
+.lista_trans th.num_cam {
+	padding: 2px 10px;
+}
+
+.lista_trans td, .lista_trans th {
+	border: 1px solid #000;
+}
+
+.print_hide {
+	display: none;
+}
+
+.display_hide {
+	display: initial;
+}
+
+.add_com_gg, .menu_nav, .box_nav, .box_tipo_lista, .testata_booking, .clx_nota_gg {
+	display: none;
+}
+
+.td_com {
+	background: #fff;
+}
+
+.liste_box {
+	margin: 0;
+}
+
+.title_list {
+	color: #000;
+	font-size: 25px;
+}
+
+.ultima_mod_lista {
+	float: right;
+	font-size: 14px;
+}
+
+.lista_trans th {
+    padding: 2px 4px 2px 4px;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+    box-shadow: none;
+}
+
+.lista_trans td {
+	padding: 2px 4px 2px 4px;
+}
+
+
+.tipo_trans_img, img {
+	width: 10px;
+	height: auto;
+	float: left;
+	padding: 2px;
+}
+
+.tipo_trans_img_bar {
+	width: 15px;
+	height: auto;
+	float: none;
+	padding: 2px;
+}
+
+.lista_barche {
+	font-size: 22px;	
+}
+
+.sinbol_piu {
+	color: #000;
+	background: #fff;
+	border: 1px solid #000;
+}
+
+.nota_gg {
+    background: #fff;
+    float: right;
+    border-radius: 3px;
+    border: 1px solid #000;
+    margin: 0 0 5px 10px;
+    padding: 2px;
+}
+
+.box_note_gg .reparti {
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.box_note_gg {
+    font-size: 12px;
+    padding:0;
+    margin: 0;
+}
+
+.ora_com {
+    color: #000;
+}
+
+.c_trans_0{background:#fff}
+.c_trans_1{background:#fff}
+.c_trans_2{background:#fff}
+.c_trans_3{background:#fff}
+}
+
+@media only screen and (min-width: 1600px) {
+.box_barche_ge_trans, .box_barche_ge_trans_par {
+	max-width: 500px;
+}
+}
