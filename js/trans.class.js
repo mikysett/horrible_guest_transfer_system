@@ -774,7 +774,7 @@ Trans.prototype.refreshNote = function() {
 				if(htmlNote != "") htmlNote += "<span class=\"note_sep\">&#9679;</span>";
 					 	
 				htmlNote += "<button class=\"xqtip\" id=\"nota_"+i+"\" value=\"nota_gg_qtip\">";
-				htmlNote += nota.testo;
+				htmlNote += format_v(nota.testo);
 				htmlNote += "</button>";
 				
 			}

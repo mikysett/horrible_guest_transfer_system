@@ -248,7 +248,6 @@ function setDay(date_str) {
 // Formatta una string per visualizzarla correttamente
 function format_v(str) {
 	// Operazioni sulle stringhe
-	
 	return str;
 }
 
